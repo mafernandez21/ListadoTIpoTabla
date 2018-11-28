@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
-//{`${item.name} ${item.ip} ${item.status}`}
 const ElementsListItem =({item})=>{
     return(
         <React.Fragment>
@@ -36,12 +34,3 @@ ElementsListItem.defautlProps={
         }
     )
 }
-
-
-/*
-        <tr>
-            <td>{`Sub Agencia 36/02 Alberdi`}</td>
-            <td>{`172.100.20.152`}</td>
-            <td>{`Online`}</td>
-        </tr>
- */
